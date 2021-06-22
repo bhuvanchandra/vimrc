@@ -56,6 +56,8 @@ set shiftwidth=8    " indent width
 " set textwidth=79
 " set smarttab      " insert tabs on the start of a line according to shiftwidth, not tabstop
 
+set noic
+
 autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4 textwidth=120
 
 " syntax support
